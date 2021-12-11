@@ -1,0 +1,11 @@
+.content {
+    background-image: url("../images/top-background.png"), url("../images/bottom-background.png");
+    background-size: contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+}
+
+.content {
+    padding-top: 178px;
+    padding-bottom: 178px;
+}
