@@ -3,6 +3,12 @@ body {
     font-family: "Roboto", "微軟正黑體";
 }
 
+.col-c {
+    -ms-flex: 0 0 calc(100%/7);
+    flex: 0 0 calc(100%/7);
+    max-width: calc(100%/7);
+}
+
 a:hover {
     text-decoration: none;
 }
