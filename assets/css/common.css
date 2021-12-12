@@ -16,7 +16,7 @@ a:hover {
 #header {
     background-image: url("../images/banner.png");
     background-size: cover;
-    height: 275px;
+    height: 200px;
 }
 
 #footer {
@@ -27,7 +27,7 @@ a:hover {
 
 .header-block {
     margin: 0;
-    padding-top: 30px;
+    padding-top: 20px;
     text-align: center;
     align-items: center;
 }
@@ -55,7 +55,7 @@ a:hover {
 
 .header-link-block {
     margin: 0;
-    margin-top: 70px;
+    margin-top: 16px;
     justify-content: space-between;
     align-items: center;
 }
