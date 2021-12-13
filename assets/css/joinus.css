@@ -1,0 +1,127 @@
+.content {
+    background-image: url("../images/top-background.png"), url("../images/bottom-background.png");
+    background-size: contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+}
+
+.content {
+    padding-top: 178px;
+    padding-bottom: 80px;
+}
+
+.content-title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 112px;
+}
+
+.content-tag-block {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.content-tag-block .content-tag {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 59px;
+    width: 255px;
+    margin: 0 auto;
+    height: 59px;
+    background: linear-gradient(182.1deg, #E0E0E0 -178.71%, #FFFFFF 98.23%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+}
+
+.b1 {
+    background: url("../images/joinus-block-background1.png");
+    background-size: cover;
+    border-radius: 51px;
+    height: 500px;
+    margin: 50px 5%;
+}
+
+.content-step-title {
+    width: 300px;
+    height: 130px;
+    background: #696969;
+    border-radius: 43px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-step-title img {
+    height: 70px;
+    margin-left: 30px;
+}
+
+.content-step-block {
+    padding: 50px 5%;
+    align-items: center;
+}
+
+.content-step-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    text-align: center;
+}
+
+.content-step-des {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.5em;
+}
+
+.b2 {
+    background: url("../images/joinus-block-background2.png");
+    background-size: cover;
+    border-radius: 51px;
+    height: 700px;
+    margin: 50px 5%;
+}
+
+.content-step-price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.content-notice-text {
+    margin: 0 10%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    width: fit-content;
+}
+
+@media screen and (max-width: 1440px) {
+    .content-step-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .content-step-title img {
+        height: 50px;
+        margin-left: 20px;
+    }
+}
