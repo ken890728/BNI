@@ -9,3 +9,91 @@
     padding-top: 178px;
     padding-bottom: 178px;
 }
+
+.content-article-block {
+    margin: 0 10%;
+}
+
+.content-title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title-block .content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 112px;
+    text-align: center;
+}
+
+.content-tag-background {
+    width: 237px;
+    height: 59px;
+    text-align: center;
+}
+
+.content-tag {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 255px;
+    margin: 0 auto;
+    height: 59px;
+    background: linear-gradient(182.1deg, #E0E0E0 -178.71%, #FFFFFF 98.23%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-tag .content-author {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.content-date {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    margin-left: 20px;
+}
+
+.content-text-block {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: center;
+}
+
+.content-article-block {
+    margin-top: 100px;
+}
+
+.content-article-block:nth-child(2n) .content-text-block {
+    flex-direction: row-reverse;
+}
+
+.content-article-block img {
+    width: 100%;
+}
+
+.content-des-block {
+    margin: 30px;
+}
+
+.content-readmore {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #838383;
+    margin-top: 30px;
+}
